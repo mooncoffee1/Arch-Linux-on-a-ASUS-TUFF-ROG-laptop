@@ -4,14 +4,9 @@ how to install and use your's laptop functionallities on arch linux
 
 ## Acknowledgements
 
- - [More NVIDIA documentation]([https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://wiki.archlinux.org/title/NVIDIA))
- - [Asus Linux]([https://github.com/matiassingers/awesome-readme](https://asus-linux.org/))
+ - [More NVIDIA documentation](https://wiki.archlinux.org/title/NVIDIA)
+ - [Asus Linux](https://asus-linux.org/)
    
-
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
 
 ## Step 1. Installation
 
