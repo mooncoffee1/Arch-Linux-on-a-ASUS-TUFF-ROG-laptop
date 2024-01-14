@@ -138,3 +138,24 @@ sudo systemctl start switcheroo-control.service
 now when u right click on a .desktop app u can see the option "Launch using Discrete Graphics Card"
 
 ![image](https://github.com/mooncoffee1/Arch-Linux-on-a-ASUS-TUFF-ROG-laptop/assets/118976333/4e15d7ea-6a54-4426-8a99-943307fb43ae)
+
+To change keyboard rgb style, colors, bios settings, fan curves etc, use rog-cotrol-center app which has GUI and its interactive.
+
+I recoment creating some shortcuts for rgb, and power profile, here is a tutorial from a guy from youtube. 
+https://youtu.be/nbDpnot7sR0?si=_SrmPWu6Tk9QfG9K&t=669
+
+## Step 8. Enable Gnome Wayland
+
+Xorg is bad, and outdated, and unusable no nvidia GPU, thats my opinion, the thing is that GDM, does not show it as option to hop on gnome wayland by default.
+
+to do that just run in terminal:
+
+```bash
+    ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
+```
+if it gives an error, put ``sudo`` before the command and run it again. Now u will see gnome-wayland as option in gdm.
+
+
+## Thats all
+
+this is kinda what i did on my ASUS TUF Gaming A15 FA507NV, because i didnt find a specific tutorial for my laptop, soo i kinda tried myself. I installed STEAM, Lutris, with EA, Ubisoft Store, etc, everything works, and i have good gaming experience, no lags, high fps.
